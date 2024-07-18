@@ -1,0 +1,49 @@
+body{
+    background:rgba(0, 0, 0, 0.562) url('/assets/images/1697154.jpg') fixed  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: yekan;
+    }
+
+    @font-face {
+        font-family: Yekan;
+        src: url('/assets/fontYekan/yekan-font/Yekan.eot');
+        src: url('/assets/fontYekan/yekan-font/yekan-regular.eot') format('Yekan-opentype'),
+             url('/assets/fontYekan/yekan-font/Yekan.woff') format('woff'),
+             url('/assets/fontYekan/yekan-font/Yekan.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      #navBar{
+        background-color: rgba(0, 0, 0, 0.301);
+      }
+
+      #rightNav{
+        width: 80%;
+        display: inline-block;
+      }
+      #leftNav{
+        width: 15%;
+        display: inline-block;
+      }
+
+      #navBar ul  {
+        font-size: 20px;
+        color: white;
+        padding: 30px;
+        padding-right: 50px;
+        margin: 0;
+      }
+      #navBar ul li {
+        display: inline-block;
+        margin: 0 20px 0 20px;
+        list-style-type: circle;
+        font-weight: bold;
+      }
