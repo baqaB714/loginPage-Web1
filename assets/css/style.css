@@ -40,10 +40,11 @@ body{
         padding: 30px;
         padding-right: 50px;
         margin: 0;
+        list-style: none;
       }
       #navBar ul li {
         display: inline-block;
         margin: 0 20px 0 20px;
-        list-style-type: circle;
         font-weight: bold;
+        counter-increment: item;
       }
